@@ -2,7 +2,7 @@ import './services.scss'
 import { motion } from 'framer-motion'
 import { useRef } from 'react'
 
-import peoplePhoto from './../../img/people.webp'
+import peopleImg from '../../img/people.webp'
 
 const variants = {
   initial: {
@@ -24,6 +24,8 @@ const variants = {
 const Services = () => {
   const ref = useRef()
 
+  // const isInView = useInView(ref, { margin: '-100px' })
+
   return (
     <motion.div
       className="services"
@@ -41,7 +43,7 @@ const Services = () => {
       </motion.div>
       <motion.div className="services-container" variants={variants}>
         <div className="services-container__title">
-          <img className="services-container__img" src={peoplePhoto} alt="" />
+          <img className="services-container__img" src={peopleImg} alt="" />
           <h1>
             <motion.span whileHover={{ color: 'orange' }}>Unique</motion.span>{' '}
             Ideas

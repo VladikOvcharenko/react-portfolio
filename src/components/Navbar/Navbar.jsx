@@ -10,7 +10,7 @@ import facebookIcon from './../../img/facebook_icon.png'
 
 const variants = {
   initial: {
-    x: 300,
+    x: 200,
     opacity: 0,
     scale: 0.3,
   },
@@ -31,7 +31,7 @@ const Navbar = () => {
     <div className="navbar">
       <Sidebar />
       <div className="navbar-wrapper">
-        <ul className="navbar-socials list-reset">
+        <ul className="navbar-socials">
           <motion.li
             variants={variants}
             initial="initial"

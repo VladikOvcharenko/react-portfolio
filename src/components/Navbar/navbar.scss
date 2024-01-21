@@ -6,36 +6,22 @@
   &-wrapper {
     height: 100%;
     max-width: 1366px;
+    padding: 20px;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-
-    @include mobile {
-      margin-right: 20px;
-    }
   }
 
   &-socials {
+    list-style: none;
     display: flex;
     align-items: center;
+    padding-top: 4px;
     gap: 28px;
     img {
       width: 30px;
       height: 30px;
-    }
-  }
-}
-@include mobile {
-  .navbar {
-    &-socials {
-      gap: 18px;
-      padding: 20px;
-
-      img {
-        width: 20px;
-        height: 20px;
-      }
     }
   }
 }

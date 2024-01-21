@@ -1,6 +1,7 @@
 @import '../../app.scss';
 
 .contact {
+  padding: 0 20px;
   max-width: 1366px;
   height: 100%;
   margin: auto;
@@ -8,33 +9,15 @@
   align-items: center;
   gap: 50px;
 
-  @include mobile {
-    width: 100%;
-    flex-direction: column;
-    padding: 12px;
-  }
-
   &-left {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 40px;
 
-    @include mobile {
-      margin-top: 70px;
-      gap: 20px;
-      text-align: center;
-    }
-
     h1 {
-      font-size: 100px;
-      line-height: 88px;
-
-      @include mobile {
-        font-size: 38px;
-        line-height: 58px;
-        text-align: center;
-      }
+      font-size: clamp(38px, 0.05rem + 8.27vw, 100px);
+      line-height: clamp(3.625rem, 1.214rem + 8.57vw, 5.5rem);
     }
     &__item {
       a {
@@ -49,10 +32,6 @@
     align-items: center;
     justify-content: center;
 
-    @include mobile {
-      width: 100%;
-      padding: 30px;
-    }
     &__svg {
       z-index: -1;
       stroke: orange;
@@ -60,12 +39,6 @@
       margin: auto;
       width: 450px;
       height: 450px;
-
-      @include mobile {
-        width: 100%;
-        width: 300px;
-        height: 300px;
-      }
     }
     form {
       width: 100%;
@@ -82,11 +55,6 @@
       border: 1px solid white;
       color: white;
       border-radius: 5px;
-
-      @include mobile {
-        width: 100%;
-        padding: 10px;
-      }
     }
 
     button {
@@ -95,8 +63,50 @@
       background-color: orange;
       cursor: pointer;
       font-weight: 500;
+    }
+  }
+}
 
-      @include mobile {
+@include small-tablet {
+  .contact {
+    gap: 4px;
+    &-form {
+      &__svg {
+        width: 350px;
+        height: 350px;
+      }
+    }
+  }
+}
+
+@include mobile {
+  .contact {
+    width: 100%;
+    flex-direction: column;
+    padding: 12px;
+
+    &-left {
+      margin-top: 70px;
+      gap: 20px;
+      text-align: center;
+    }
+    &-form {
+      width: 100%;
+      padding: 30px;
+
+      &__svg {
+        width: 100%;
+        width: 300px;
+        height: 300px;
+      }
+
+      input,
+      textarea {
+        width: 100%;
+        padding: 10px;
+      }
+
+      button {
         width: 100%;
         padding: 10px;
       }
