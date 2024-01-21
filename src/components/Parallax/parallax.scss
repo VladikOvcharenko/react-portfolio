@@ -1,0 +1,83 @@
+@import '../../app.scss';
+
+.parallax {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+
+  h1 {
+    font-size: 100px;
+    @include mobile {
+      font-size: 72px;
+    }
+  }
+}
+
+.mountains {
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
+  z-index: 3;
+  background-image: url('./../../img/mountains.png');
+
+  @include mobile {
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+.planets {
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
+  z-index: 2;
+  background-image: url('./../../img/planets.png');
+
+  @include mobile {
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+.stars {
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
+  z-index: 1;
+  background-image: url('./../../img/stars.png');
+}
+
+// &-img {
+// 	background-size: cover;
+// 	background-position: bottom;
+// 	width: 100%;
+// 	height: 100%;
+// 	position: absolute;
+// }
+// }
+
+// .mountains {
+// z-index: 3;
+// background-image: url('/mountains.png');
+// }
+// .planets {
+// z-index: 2;
+// background-image: url('/planets.png');
+// }
+// .stars {
+// z-index: 1;
+// background-image: url('/stars.png');
+// }

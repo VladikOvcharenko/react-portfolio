@@ -1,0 +1,17 @@
+.sidebar {
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  color: black;
+
+  .bg {
+    z-index: 9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 400px;
+
+    background-color: #fff;
+  }
+}
