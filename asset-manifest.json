@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.92a958f3.css",
-    "main.js": "/react-portfolio/static/js/main.23d91848.js",
-    "static/media/mountains.png": "/react-portfolio/static/media/mountains.6bceb498a0e1e0a70b47.png",
+    "main.css": "/react-portfolio/static/css/main.74625d99.css",
+    "main.js": "/react-portfolio/static/js/main.5cef1171.js",
+    "static/media/mountains.png": "/react-portfolio/static/media/mountains.adaa427e2bbac3d41dd5.png",
+    "static/media/stars.png": "/react-portfolio/static/media/stars.1644f22c4198c05eeb93.png",
     "static/media/hero.png": "/react-portfolio/static/media/hero.3286d5195c026db92bd7.png",
-    "static/media/people.webp": "/react-portfolio/static/media/people.58eb2f8d793cb5ba671a.webp",
-    "static/media/stars.png": "/react-portfolio/static/media/stars.a979f6ed7ad00c7ea0b2.png",
+    "static/media/citicom.jpg": "/react-portfolio/static/media/citicom.0f975e218d9be40e0e9e.jpg",
+    "static/media/pokermutch.jpg": "/react-portfolio/static/media/pokermutch.2ef1a1e95b71e0f22615.jpg",
+    "static/media/x-gen.jpg": "/react-portfolio/static/media/x-gen.d8ab20b33806b93da450.jpg",
     "static/media/planets.png": "/react-portfolio/static/media/planets.827213af57ae82d007cd.png",
     "static/media/sun.png": "/react-portfolio/static/media/sun.1122608e12712a52470d.png",
     "index.html": "/react-portfolio/index.html",
-    "main.92a958f3.css.map": "/react-portfolio/static/css/main.92a958f3.css.map",
-    "main.23d91848.js.map": "/react-portfolio/static/js/main.23d91848.js.map"
+    "main.74625d99.css.map": "/react-portfolio/static/css/main.74625d99.css.map",
+    "main.5cef1171.js.map": "/react-portfolio/static/js/main.5cef1171.js.map"
   },
   "entrypoints": [
-    "static/css/main.92a958f3.css",
-    "static/js/main.23d91848.js"
+    "static/css/main.74625d99.css",
+    "static/js/main.5cef1171.js"
   ]
 }
