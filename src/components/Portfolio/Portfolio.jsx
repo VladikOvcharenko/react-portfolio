@@ -1,43 +1,13 @@
 import './portfolio.scss'
 import { motion, useScroll, useSpring, useTransform } from 'framer-motion'
 import { useRef } from 'react'
-<<<<<<< Updated upstream
-=======
 import citicom from '../../img/citicom.jpg'
 import poker from '../../img/pokermutch.jpg'
 import xGen from '../../img/x-gen.jpg'
->>>>>>> Stashed changes
 
 const items = [
   {
     id: 1,
-<<<<<<< Updated upstream
-    title: 'react',
-    img: 'https://images.pexels.com/photos/1054655/pexels-photo-1054655.jpeg?auto=compress&cs=tinysrgb&w=400',
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsum ad nobis quaerat nulla, amet, minus sed voluptatem impedit quibusdam.',
-    link: 'https://www.pexels.com/ru-ru/search/%D1%81%D0%BB%D0%BE%D0%BD/',
-  },
-  {
-    id: 2,
-    title: 'react',
-    img: 'https://images.pexels.com/photos/1054666/pexels-photo-1054666.jpeg?auto=compress&cs=tinysrgb&w=400',
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsum ad nobis quaerat nulla, amet, minus sed voluptatem impedit quibusdam.',
-    link: '',
-  },
-  {
-    id: 3,
-    title: 'react',
-    img: 'https://images.pexels.com/photos/68550/thailand-elephant-sunset-nature-68550.jpeg?auto=compress&cs=tinysrgb&w=400',
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsum ad nobis quaerat nulla, amet, minus sed voluptatem impedit quibusdam.',
-    link: '',
-  },
-  {
-    id: 4,
-    title: 'react',
-    img: 'https://images.pexels.com/photos/166277/pexels-photo-166277.jpeg?auto=compress&cs=tinysrgb&w=400',
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsum ad nobis quaerat nulla, amet, minus sed voluptatem impedit quibusdam.',
-    link: '',
-=======
     title: 'CitiCom',
     img: citicom,
     desc: 'In the project, I utilized HTML5, SCSS, and JavaScript as the core technology stack. Additionally, I incorporated Swiper slider, smooth-scroll functionality, and employed the Gulp project builder. For feedback purposes, the Telegram API was integrated.',
@@ -59,7 +29,6 @@ const items = [
     desc: 'In the project, I utilized HTML5, SCSS, employed the Gulp project builder.',
     link: 'https://vladikovcharenko.github.io/X-GEN/',
     gitHubLink: '',
->>>>>>> Stashed changes
   },
 ]
 
@@ -68,10 +37,6 @@ const Single = ({ item }) => {
 
   const { scrollYProgress } = useScroll({
     target: ref,
-<<<<<<< Updated upstream
-    // offset: ['start start', 'end start'],
-=======
->>>>>>> Stashed changes
   })
 
   const y = useTransform(scrollYProgress, [0, 1], [-250, 250])
@@ -87,10 +52,7 @@ const Single = ({ item }) => {
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
             <a href={item.link}>See DEMO</a>
-<<<<<<< Updated upstream
-=======
             <a href={item.gitHubLink}>GitHub</a>
->>>>>>> Stashed changes
           </motion.div>
         </div>
       </div>

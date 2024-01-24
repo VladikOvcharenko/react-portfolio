@@ -2,8 +2,6 @@ import './services.scss'
 import { motion } from 'framer-motion'
 import { useRef } from 'react'
 
-import peopleImg from '../../img/people.webp'
-
 const variants = {
   initial: {
     x: -500,
@@ -24,8 +22,6 @@ const variants = {
 const Services = () => {
   const ref = useRef()
 
-  // const isInView = useInView(ref, { margin: '-100px' })
-
   return (
     <motion.div
       className="services"
@@ -33,7 +29,6 @@ const Services = () => {
       initial="initial"
       ref={ref}
       animate={'animate'}
-      // animate={isInView && 'animate'}
     >
       <motion.div className="services-text" variants={variants}>
         <p>
@@ -42,72 +37,6 @@ const Services = () => {
         <hr />
       </motion.div>
       <motion.div className="services-container" variants={variants}>
-<<<<<<< Updated upstream
-        <div className="services-container__title">
-          <img className="services-container__img" src={peopleImg} alt="" />
-          <h1>
-            <motion.span whileHover={{ color: 'orange' }}>Unique</motion.span>{' '}
-            Ideas
-          </h1>
-        </div>
-        <div className="services-container__title">
-          <h1>
-            <motion.span whileHover={{ color: 'orange' }}>For your</motion.span>{' '}
-            Business
-          </h1>
-          <button>what i do?</button>
-        </div>
-      </motion.div>
-      <motion.ul className="services-list list-reset" variants={variants}>
-        <motion.li
-          className="services-list__item"
-          whileHover={{ background: 'lightgray', color: 'black' }}
-        >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
-            itaque sed necessitatibus. Sed reprehenderit veniam laboriosam
-            aperiam quia voluptas inventore ratione vitae nemo delectus?
-          </p>
-          <button>Go</button>
-        </motion.li>
-        <motion.li
-          className="services-list__item"
-          whileHover={{ background: 'lightgray', color: 'black' }}
-        >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
-            itaque sed necessitatibus. Sed reprehenderit veniam laboriosam
-            aperiam quia voluptas inventore ratione vitae nemo delectus?
-          </p>
-          <button>Go</button>
-        </motion.li>
-        <motion.li
-          className="services-list__item"
-          whileHover={{ background: 'lightgray', color: 'black' }}
-        >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
-            itaque sed necessitatibus. Sed reprehenderit veniam laboriosam
-            aperiam quia voluptas inventore ratione vitae nemo delectus?
-          </p>
-          <button>Go</button>
-        </motion.li>
-        <motion.li
-          className="services-list__item"
-          whileHover={{ background: 'lightgray', color: 'black' }}
-        >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
-            itaque sed necessitatibus. Sed reprehenderit veniam laboriosam
-            aperiam quia voluptas inventore ratione vitae nemo delectus?
-          </p>
-          <button>Go</button>
-        </motion.li>
-=======
         <h1 className="services-container__title">my SERVICES</h1>
       </motion.div>
       <motion.ul className="services-list list-reset" variants={variants}>
@@ -142,7 +71,6 @@ const Services = () => {
           </p>
           <a href="#Contact">Go</a>
         </li>
->>>>>>> Stashed changes
       </motion.ul>
     </motion.div>
   )

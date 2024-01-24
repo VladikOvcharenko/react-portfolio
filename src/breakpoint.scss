@@ -10,14 +10,11 @@
   }
 }
 
-<<<<<<< Updated upstream
-=======
 @mixin big-mobile {
   @media (max-width: (600px)) {
     @content;
   }
 }
->>>>>>> Stashed changes
 @mixin mobile {
   @media (max-width: (450px)) {
     @content;

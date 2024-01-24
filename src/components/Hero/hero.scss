@@ -13,10 +13,7 @@
     display: flex;
   }
   &-container {
-<<<<<<< Updated upstream
-=======
     z-index: 3;
->>>>>>> Stashed changes
     width: 60%;
     height: 100%;
     display: flex;
@@ -30,10 +27,7 @@
       letter-spacing: 10px;
     }
     h1 {
-<<<<<<< Updated upstream
-=======
       user-select: none;
->>>>>>> Stashed changes
       font-size: clamp(36px, 0.9rem + 4vw, 88px);
     }
     img {
@@ -50,11 +44,7 @@
 
       border: 1px solid var(--light-color);
       border-radius: 10px;
-<<<<<<< Updated upstream
-      color: white;
-=======
       color: var(--light-color);
->>>>>>> Stashed changes
       background-color: transparent;
       cursor: pointer;
       font-weight: 300;
@@ -79,10 +69,7 @@
     bottom: -120px;
     white-space: nowrap;
     color: #ffffff09;
-<<<<<<< Updated upstream
-=======
     user-select: none;
->>>>>>> Stashed changes
   }
 }
 

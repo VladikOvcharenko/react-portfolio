@@ -1,11 +1,7 @@
 import './links.scss'
 import { motion } from 'framer-motion'
 
-<<<<<<< Updated upstream
-const Links = () => {
-=======
 const Links = ({ setClose }) => {
->>>>>>> Stashed changes
   const items = ['Homepage', 'Services', 'Portfolio', 'Contact']
 
   const variants = {
@@ -40,10 +36,7 @@ const Links = ({ setClose }) => {
           variants={itemVariants}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
-<<<<<<< Updated upstream
-=======
           onClick={setClose}
->>>>>>> Stashed changes
         >
           {item}
         </motion.a>
