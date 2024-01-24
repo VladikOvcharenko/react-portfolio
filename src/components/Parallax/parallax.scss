@@ -24,6 +24,11 @@
     &__mountains {
       z-index: 3;
 
+<<<<<<< Updated upstream
+=======
+      background-size: contain;
+      background-repeat: no-repeat;
+>>>>>>> Stashed changes
       background-image: url('./../../img/mountains.png');
     }
     &__planets {
@@ -41,6 +46,10 @@
 
 @include small-tablet {
   .parallax {
+<<<<<<< Updated upstream
+=======
+    // height: 90vh;
+>>>>>>> Stashed changes
     &-img {
       background-repeat: no-repeat;
       &__mountains {

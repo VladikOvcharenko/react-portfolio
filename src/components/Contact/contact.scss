@@ -72,6 +72,22 @@
     gap: 4px;
     &-form {
       &__svg {
+<<<<<<< Updated upstream
+=======
+        width: 300px;
+        height: 300px;
+      }
+    }
+  }
+}
+
+@include big-mobile {
+  .contact {
+    flex-direction: column;
+    &-form {
+      width: 100%;
+      &__svg {
+>>>>>>> Stashed changes
         width: 350px;
         height: 350px;
       }
