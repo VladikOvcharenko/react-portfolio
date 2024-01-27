@@ -40,17 +40,18 @@
     gap: 30px;
 
     h2 {
+      color: var(--second-color);
       font-size: clamp(36px, -0.321rem + 12.86vw, 42px);
     }
 
     p {
-      color: gray;
+      color: var(--gray-color);
       font-size: 20px;
     }
     a {
       text-align: center;
       color: black;
-      background-color: orange;
+      background-color: var(--accent-color);
       border-radius: 10px;
       width: 200px;
       padding: 10px;
@@ -64,11 +65,10 @@
     left: 0;
     padding-top: 50px;
     text-align: center;
-    color: orange;
+    color: var(--accent-color);
     h1 {
       font-size: clamp(32px, 0.143rem + 9.29vw, 58px);
     }
-
     &__bar {
       height: 10px;
       background-color: #fff;
@@ -96,13 +96,11 @@
     }
     &-img {
       width: 100%;
-
       img {
         width: 100%;
         object-fit: contain;
       }
     }
-
     a {
       align-items: center;
       margin: 0 auto;
@@ -116,24 +114,20 @@
       gap: 0;
       padding-top: 180px;
     }
-    &-container {
-    }
-
     &-text {
-      gap: 12px;
+      gap: 14px;
+      p {
+        font-size: 16px;
+      }
     }
-
     &-img {
       max-height: 250px;
-
       img {
         object-fit: cover;
       }
     }
-
     &-progress {
       padding-top: 50px;
-
       &__bar {
         height: 4px;
       }

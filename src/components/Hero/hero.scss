@@ -23,7 +23,7 @@
 
     h2 {
       font-size: 30px;
-      color: #663399;
+      color: var(--second-color);
       letter-spacing: 10px;
     }
     h1 {
@@ -41,7 +41,6 @@
 
     a {
       padding: 20px;
-
       border: 1px solid var(--light-color);
       border-radius: 10px;
       color: var(--light-color);
@@ -75,8 +74,6 @@
 
 @include small-tablet {
   .hero {
-    &-wrapper {
-    }
     &-container {
       height: 40%;
       width: 100%;

@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 
-import Links from './links/Links'
-import ToggleBtn from './toggleBtn/ToggleBtn'
+import Links from './Links/Links'
+import ToggleBtn from './ToggleBtn/ToggleBtn'
 
 import './sidebar.scss'
 

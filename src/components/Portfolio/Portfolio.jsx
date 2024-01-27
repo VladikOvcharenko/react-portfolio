@@ -12,7 +12,7 @@ const items = [
     img: citicom,
     desc: 'In the project, I utilized HTML5, SCSS, and JavaScript as the core technology stack. Additionally, I incorporated Swiper slider, smooth-scroll functionality, and employed the Gulp project builder. For feedback purposes, the Telegram API was integrated.',
     link: 'https://vladikovcharenko.github.io/citicom/',
-    gitHubLink: '',
+    gitHubLink: 'https://github.com/VladikOvcharenko/citicom',
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const items = [
     img: poker,
     desc: 'In the project, I utilized HTML5, SCSS, and JavaScript as the core technology stack. Additionally, I incorporated Swiper slider and employed the Gulp project builder. For feedback purposes.',
     link: 'https://vladikovcharenko.github.io/poker/',
-    gitHubLink: '',
+    gitHubLink: 'https://github.com/VladikOvcharenko/poker',
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const items = [
     img: xGen,
     desc: 'In the project, I utilized HTML5, SCSS, employed the Gulp project builder.',
     link: 'https://vladikovcharenko.github.io/X-GEN/',
-    gitHubLink: '',
+    gitHubLink: 'https://github.com/VladikOvcharenko/X-GEN',
   },
 ]
 
