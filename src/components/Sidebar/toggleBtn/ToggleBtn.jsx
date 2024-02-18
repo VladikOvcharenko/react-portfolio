@@ -1,4 +1,5 @@
 import './toggleBtn.scss'
+
 import { motion } from 'framer-motion'
 
 const ToggleBtn = ({ setOpen }) => {
