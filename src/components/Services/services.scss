@@ -1,0 +1,180 @@
+@import '../../app.scss';
+
+.services {
+  background: var(--bg-gradient);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &-text {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+    gap: 20px;
+
+    p {
+      font-weight: 200;
+      font-size: 20px;
+      color: var(--gray-color);
+      text-align: right;
+    }
+    hr {
+      width: 500px;
+      border: none;
+      border: 0.5px solid var(--gray-color);
+    }
+  }
+
+  &-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &__title {
+      font-weight: 100;
+      font-size: clamp(36px, 0.752rem + 6.15vw, 96px);
+    }
+  }
+  &-list {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1366px;
+    margin: 0 auto;
+    gap: 40px;
+
+    &__item {
+      padding: 18px;
+      border: 1px solid var(--gray-color);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 20px;
+      transition: all 0.3s ease;
+
+      &:hover {
+        scale: 1.1;
+        background: linear-gradient(
+          to right,
+          rgba(255, 255, 255, 0.1),
+          rgba(255, 255, 255, 0.3)
+        );
+        backdrop-filter: blur(10px);
+      }
+
+      h2 {
+        text-align: center;
+        font-size: 28px;
+      }
+
+      a {
+        text-align: center;
+        padding: 12px;
+        font-size: 18px;
+        color: var(--dark-color);
+        background-color: var(--accent-color);
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@include tablet {
+  .services {
+    &-text {
+      hr {
+        width: 400px;
+      }
+    }
+    &-list {
+      &__item {
+        padding: 24px;
+      }
+    }
+  }
+}
+
+@include small-tablet {
+  .services {
+    &-text {
+      hr {
+        width: 300px;
+      }
+    }
+    &-list {
+      &__item {
+        gap: 16px;
+        padding: 18px;
+        h2 {
+          font-size: 20px;
+        }
+        p {
+          font-size: 14px;
+        }
+        a {
+          font-size: 14px;
+          padding: 8px;
+        }
+      }
+    }
+  }
+}
+
+@include big-mobile {
+  .services {
+    &-text {
+      margin-top: 18px;
+      flex-direction: column;
+    }
+    &-container {
+      margin-top: 10px;
+    }
+    &-list {
+      grid-template-columns: 1fr;
+      width: 100%;
+    }
+  }
+}
+
+@include mobile {
+  .services {
+    text-align: center;
+    &-text {
+      align-items: end;
+      margin-top: 12px;
+      p {
+        font-size: 14px;
+        padding-right: 20px;
+      }
+      hr {
+        width: 260px;
+      }
+    }
+
+    &-list {
+      grid-template-columns: 1fr;
+      width: 100%;
+      gap: 18px;
+      &__item {
+        border-radius: 4px;
+        align-items: center;
+        width: 100%;
+        padding: 8px;
+
+        p {
+          font-size: 13px;
+        }
+        a {
+          padding: 6px;
+          width: 50%;
+          color: var(--accent-color);
+          background-color: transparent;
+          border: 1px solid var(--gray-color);
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+}

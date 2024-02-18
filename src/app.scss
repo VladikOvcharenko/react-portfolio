@@ -1,0 +1,29 @@
+@import './breakpoint.scss';
+@import './vars.scss';
+
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: lightgray;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  height: 100vh;
+  margin: 0;
+  scroll-snap-align: center;
+}

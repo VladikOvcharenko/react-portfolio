@@ -1,0 +1,136 @@
+@import '../../app.scss';
+
+.portfolio {
+  position: relative;
+
+  &-container {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  &-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    max-width: 1366px;
+    margin: auto;
+    gap: 50px;
+  }
+  &-img {
+    flex: 1;
+    height: 50%;
+    border-radius: 8px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+  &-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    h2 {
+      color: var(--second-color);
+      font-size: clamp(36px, -0.321rem + 12.86vw, 42px);
+    }
+
+    p {
+      color: var(--gray-color);
+      font-size: 20px;
+    }
+    a {
+      text-align: center;
+      color: black;
+      background-color: var(--accent-color);
+      border-radius: 10px;
+      width: 200px;
+      padding: 10px;
+      cursor: pointer;
+    }
+  }
+
+  &-progress {
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+    text-align: center;
+    color: var(--accent-color);
+    h1 {
+      font-size: clamp(32px, 0.143rem + 9.29vw, 58px);
+    }
+    &__bar {
+      height: 10px;
+      background-color: #fff;
+    }
+  }
+}
+
+@include small-tablet {
+  .portfolio {
+    &-progress {
+      padding-top: 20px;
+
+      &__bar {
+        height: 6px;
+      }
+    }
+    &-wrapper {
+      flex-direction: column;
+      padding-top: 130px;
+    }
+    &-text {
+      transform: none !important;
+      text-align: center;
+      padding: 12px;
+    }
+    &-img {
+      width: 100%;
+      img {
+        width: 100%;
+        object-fit: contain;
+      }
+    }
+    a {
+      align-items: center;
+      margin: 0 auto;
+    }
+  }
+}
+
+@include mobile {
+  .portfolio {
+    &-wrapper {
+      gap: 0;
+      padding-top: 180px;
+    }
+    &-text {
+      gap: 14px;
+      p {
+        font-size: 16px;
+      }
+    }
+    &-img {
+      max-height: 250px;
+      img {
+        object-fit: cover;
+      }
+    }
+    &-progress {
+      padding-top: 50px;
+      &__bar {
+        height: 4px;
+      }
+    }
+  }
+}
