@@ -4,6 +4,7 @@ import { useRef } from 'react'
 import citicom from '../../img/citicom.jpg'
 import poker from '../../img/pokermutch.jpg'
 import xGen from '../../img/x-gen.jpg'
+import hizxer from '../../img/hizxer.png'
 
 const items = [
   {
@@ -16,14 +17,23 @@ const items = [
   },
   {
     id: 2,
+    title: 'Hizxer',
+    img: hizxer,
+    desc: 'Hixzer project is written in HTML, SCSS, and JavaScript. project builder: Gulp. Swiper slider and AOS library for visual effects. Adaptation has been made for tablets (768px) and mobile version (390px).',
+    link: 'https://github.com/VladikOvcharenko/Hizxer',
+    gitHubLink: 'https://vladikovcharenko.github.io/Hizxer/',
+  },
+  {
+    id: 3,
     title: 'Poker Match',
     img: poker,
     desc: 'In the project, I utilized HTML5, SCSS, and JavaScript as the core technology stack. Additionally, I incorporated Swiper slider and employed the Gulp project builder. For feedback purposes.',
     link: 'https://vladikovcharenko.github.io/poker/',
     gitHubLink: 'https://github.com/VladikOvcharenko/poker',
   },
+
   {
-    id: 3,
+    id: 4,
     title: 'X-GEN',
     img: xGen,
     desc: 'In the project, I utilized HTML5, SCSS, employed the Gulp project builder.',
