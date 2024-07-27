@@ -1,10 +1,10 @@
-import './portfolio.scss'
-import { motion, useScroll, useSpring, useTransform } from 'framer-motion'
-import { useRef } from 'react'
-import citicom from '../../img/citicom.jpg'
-import poker from '../../img/pokermutch.jpg'
-import xGen from '../../img/x-gen.jpg'
-import hizxer from '../../img/hizxer.png'
+import './portfolio.scss';
+import { motion, useScroll, useSpring, useTransform } from 'framer-motion';
+import { useRef } from 'react';
+import citicom from '../../img/citicom.jpg';
+import poker from '../../img/pokermutch.jpg';
+import xGen from '../../img/x-gen.jpg';
+import hizxer from '../../img/hizxer.png';
 
 const items = [
   {
@@ -13,15 +13,15 @@ const items = [
     img: citicom,
     desc: 'In the project, I utilized HTML5, SCSS, and JavaScript as the core technology stack. Additionally, I incorporated Swiper slider, smooth-scroll functionality, and employed the Gulp project builder. For feedback purposes, the Telegram API was integrated.',
     link: 'https://vladikovcharenko.github.io/citicom/',
-    gitHubLink: 'https://github.com/VladikOvcharenko/citicom',
+    gitHubLink: 'https://github.com/VladikOvcharenko/citicom/tree/dev',
   },
   {
     id: 2,
     title: 'Hizxer',
     img: hizxer,
     desc: 'Hixzer project is written in HTML, SCSS, and JavaScript. project builder: Gulp. Swiper slider and AOS library for visual effects. Adaptation has been made for tablets (768px) and mobile version (390px).',
-    link: 'https://github.com/VladikOvcharenko/Hizxer',
-    gitHubLink: 'https://vladikovcharenko.github.io/Hizxer/',
+    link: 'https://vladikovcharenko.github.io/Hixzer/',
+    gitHubLink: 'https://github.com/VladikOvcharenko/Hixzer',
   },
   {
     id: 3,
@@ -40,16 +40,16 @@ const items = [
     link: 'https://vladikovcharenko.github.io/X-GEN/',
     gitHubLink: 'https://github.com/VladikOvcharenko/X-GEN',
   },
-]
+];
 
 const Single = ({ item }) => {
-  const ref = useRef()
+  const ref = useRef();
 
   const { scrollYProgress } = useScroll({
     target: ref,
-  })
+  });
 
-  const y = useTransform(scrollYProgress, [0, 1], [-250, 250])
+  const y = useTransform(scrollYProgress, [0, 1], [-250, 250]);
 
   return (
     <section>
@@ -67,20 +67,20 @@ const Single = ({ item }) => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 const Portfolio = () => {
-  const ref = useRef()
+  const ref = useRef();
 
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ['end end', 'start start'],
-  })
+  });
 
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
     damping: 30,
-  })
+  });
 
   return (
     <div className="portfolio" ref={ref}>
@@ -95,7 +95,7 @@ const Portfolio = () => {
         <Single item={item} key={item.id} />
       ))}
     </div>
-  )
-}
+  );
+};
 
-export default Portfolio
+export default Portfolio;

@@ -1,6 +1,6 @@
-import './toggleBtn.scss'
+import './togglebtn.scss';
 
-import { motion } from 'framer-motion'
+import { motion } from 'framer-motion';
 
 const ToggleBtn = ({ setOpen }) => {
   return (
@@ -36,7 +36,7 @@ const ToggleBtn = ({ setOpen }) => {
         />
       </svg>
     </button>
-  )
-}
+  );
+};
 
-export default ToggleBtn
+export default ToggleBtn;

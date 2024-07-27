@@ -1,13 +1,13 @@
-import { useState } from 'react'
-import { motion } from 'framer-motion'
+import { useState } from 'react';
+import { motion } from 'framer-motion';
 
-import Links from './Links/Links'
-import ToggleBtn from './ToggleBtn/ToggleBtn'
+import Links from './links/Links';
+import ToggleBtn from './toggleBtn/ToggleBtn';
 
-import './sidebar.scss'
+import './sidebar.scss';
 
 const Sidebar = () => {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false);
 
   const variants = {
     open: {
@@ -26,11 +26,11 @@ const Sidebar = () => {
         damping: 40,
       },
     },
-  }
+  };
 
   const closeSidebar = () => {
-    setOpen(false)
-  }
+    setOpen(false);
+  };
   return (
     <motion.div className="sidebar flex" animate={open ? 'open' : 'closed'}>
       <motion.div className="bg" variants={variants}>
@@ -38,7 +38,7 @@ const Sidebar = () => {
       </motion.div>
       <ToggleBtn setOpen={setOpen} />
     </motion.div>
-  )
-}
+  );
+};
 
-export default Sidebar
+export default Sidebar;
