@@ -5,8 +5,17 @@ import citicom from '../../img/citicom.jpg';
 import poker from '../../img/pokermutch.jpg';
 import xGen from '../../img/x-gen.jpg';
 import hizxer from '../../img/hizxer.png';
+import joy from '../../img/joy.png';
 
 const items = [
+  {
+    id: 1,
+    title: 'J.O.Y',
+    img: joy,
+    desc: 'In the project, I utilized HTML5, SCSS, and JavaScript as the core technology stack. Additionally, I incorporated Swiper slider, smooth-scroll functionality, and employed the Gulp project builder.',
+    link: 'https://vladikovcharenko.github.io/joy-group/',
+    gitHubLink: 'https://github.com/VladikOvcharenko/joy-group/tree/dev',
+  },
   {
     id: 1,
     title: 'CitiCom',
