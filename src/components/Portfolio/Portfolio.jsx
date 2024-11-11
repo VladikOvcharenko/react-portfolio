@@ -30,7 +30,7 @@ const items = [
     img: hizxer,
     desc: 'Hixzer project is written in HTML, SCSS, and JavaScript. project builder: Gulp. Swiper slider and AOS library for visual effects. Adaptation has been made for tablets (768px) and mobile version (390px).',
     link: 'https://vladikovcharenko.github.io/Hixzer/',
-    gitHubLink: 'https://github.com/VladikOvcharenko/Hixzer',
+    gitHubLink: 'https://github.com/VladikOvcharenko/Hixzer/dev',
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ const items = [
     img: poker,
     desc: 'In the project, I utilized HTML5, SCSS, and JavaScript as the core technology stack. Additionally, I incorporated Swiper slider and employed the Gulp project builder. For feedback purposes.',
     link: 'https://vladikovcharenko.github.io/poker/',
-    gitHubLink: 'https://github.com/VladikOvcharenko/poker',
+    gitHubLink: 'https://github.com/VladikOvcharenko/poker/dev',
   },
 
   {
@@ -47,7 +47,7 @@ const items = [
     img: xGen,
     desc: 'In the project, I utilized HTML5, SCSS, employed the Gulp project builder.',
     link: 'https://vladikovcharenko.github.io/X-GEN/',
-    gitHubLink: 'https://github.com/VladikOvcharenko/X-GEN',
+    gitHubLink: 'https://github.com/VladikOvcharenko/X-GEN/dev',
   },
 ];
 
