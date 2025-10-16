@@ -1,23 +1,35 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.490319fb.css",
-    "main.js": "/react-portfolio/static/js/main.f9bf8b3f.js",
+    "main.css": "/react-portfolio/static/css/main.496b183d.css",
+    "main.js": "/react-portfolio/static/js/main.49004a77.js",
+    "static/media/strumko.webp": "/react-portfolio/static/media/strumko.ad5aa13128c358244518.webp",
     "static/media/mountains.png": "/react-portfolio/static/media/mountains.adaa427e2bbac3d41dd5.png",
+    "static/media/dent-alb.webp": "/react-portfolio/static/media/dent-alb.50871132d0ac151f9b71.webp",
+    "static/media/7leads-biz.webp": "/react-portfolio/static/media/7leads-biz.ded6fa210aaf9e61d544.webp",
     "static/media/joy.png": "/react-portfolio/static/media/joy.932741ccb80f6f3ee6bb.png",
     "static/media/stars.png": "/react-portfolio/static/media/stars.1644f22c4198c05eeb93.png",
+    "static/media/justify.webp": "/react-portfolio/static/media/justify.db53074cb4585e461bd7.webp",
+    "static/media/agency-nervous-pro.webp": "/react-portfolio/static/media/agency-nervous-pro.0822d59d747f2ed075da.webp",
     "static/media/hero.png": "/react-portfolio/static/media/hero.3286d5195c026db92bd7.png",
+    "static/media/billions.webp": "/react-portfolio/static/media/billions.b6f226974f24c95861f4.webp",
+    "static/media/marketing-nervous-pro.webp": "/react-portfolio/static/media/marketing-nervous-pro.51f5cfbcb418590aecf1.webp",
     "static/media/hizxer.png": "/react-portfolio/static/media/hizxer.10b51ecde865abf8725f.png",
     "static/media/citicom.jpg": "/react-portfolio/static/media/citicom.0f975e218d9be40e0e9e.jpg",
     "static/media/pokermutch.jpg": "/react-portfolio/static/media/pokermutch.2ef1a1e95b71e0f22615.jpg",
     "static/media/x-gen.jpg": "/react-portfolio/static/media/x-gen.d8ab20b33806b93da450.jpg",
     "static/media/planets.png": "/react-portfolio/static/media/planets.827213af57ae82d007cd.png",
     "static/media/sun.png": "/react-portfolio/static/media/sun.1122608e12712a52470d.png",
+    "static/media/phone-contact-svgrepo-com.svg": "/react-portfolio/static/media/phone-contact-svgrepo-com.0e94295a627ebdff95cb.svg",
+    "static/media/github.svg": "/react-portfolio/static/media/github.a99823f69b0d95bcbae8.svg",
     "index.html": "/react-portfolio/index.html",
-    "main.490319fb.css.map": "/react-portfolio/static/css/main.490319fb.css.map",
-    "main.f9bf8b3f.js.map": "/react-portfolio/static/js/main.f9bf8b3f.js.map"
+    "static/media/linkedin.svg": "/react-portfolio/static/media/linkedin.28e50df2b88f2fb033e6.svg",
+    "static/media/telegram.svg": "/react-portfolio/static/media/telegram.006c437dec4336236b11.svg",
+    "static/media/facebook.svg": "/react-portfolio/static/media/facebook.0b1b4026c31f022619f2.svg",
+    "main.496b183d.css.map": "/react-portfolio/static/css/main.496b183d.css.map",
+    "main.49004a77.js.map": "/react-portfolio/static/js/main.49004a77.js.map"
   },
   "entrypoints": [
-    "static/css/main.490319fb.css",
-    "static/js/main.f9bf8b3f.js"
+    "static/css/main.496b183d.css",
+    "static/js/main.49004a77.js"
   ]
 }
