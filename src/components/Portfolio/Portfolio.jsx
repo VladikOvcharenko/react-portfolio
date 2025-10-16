@@ -1,55 +1,8 @@
 import './portfolio.scss';
 import { motion, useScroll, useSpring, useTransform } from 'framer-motion';
 import { useRef } from 'react';
-import citicom from '../../img/citicom.jpg';
-import poker from '../../img/pokermutch.jpg';
-import xGen from '../../img/x-gen.jpg';
-import hizxer from '../../img/hizxer.png';
-import joy from '../../img/joy.png';
 
-const items = [
-  {
-    id: 1,
-    title: 'J.O.Y',
-    img: joy,
-    desc: 'In the project, I utilized HTML5, SCSS, and JavaScript as the core technology stack. Additionally, I incorporated Swiper slider, smooth-scroll functionality, and employed the Gulp project builder.',
-    link: 'https://vladikovcharenko.github.io/joy-group/',
-    gitHubLink: 'https://github.com/VladikOvcharenko/joy-group/tree/dev',
-  },
-  {
-    id: 1,
-    title: 'CitiCom',
-    img: citicom,
-    desc: 'In the project, I utilized HTML5, SCSS, and JavaScript as the core technology stack. Additionally, I incorporated Swiper slider, smooth-scroll functionality, and employed the Gulp project builder. For feedback purposes, the Telegram API was integrated.',
-    link: 'https://vladikovcharenko.github.io/citicom/',
-    gitHubLink: 'https://github.com/VladikOvcharenko/citicom/tree/dev',
-  },
-  {
-    id: 2,
-    title: 'Hizxer',
-    img: hizxer,
-    desc: 'Hixzer project is written in HTML, SCSS, and JavaScript. project builder: Gulp. Swiper slider and AOS library for visual effects. Adaptation has been made for tablets (768px) and mobile version (390px).',
-    link: 'https://vladikovcharenko.github.io/Hixzer/',
-    gitHubLink: 'https://github.com/VladikOvcharenko/Hixzer/dev',
-  },
-  {
-    id: 3,
-    title: 'Poker Match',
-    img: poker,
-    desc: 'In the project, I utilized HTML5, SCSS, and JavaScript as the core technology stack. Additionally, I incorporated Swiper slider and employed the Gulp project builder. For feedback purposes.',
-    link: 'https://vladikovcharenko.github.io/poker/',
-    gitHubLink: 'https://github.com/VladikOvcharenko/poker/dev',
-  },
-
-  {
-    id: 4,
-    title: 'X-GEN',
-    img: xGen,
-    desc: 'In the project, I utilized HTML5, SCSS, employed the Gulp project builder.',
-    link: 'https://vladikovcharenko.github.io/X-GEN/',
-    gitHubLink: 'https://github.com/VladikOvcharenko/X-GEN/dev',
-  },
-];
+import projects from '../../data/data.json';
 
 const Single = ({ item }) => {
   const ref = useRef();
@@ -65,13 +18,19 @@ const Single = ({ item }) => {
       <div className="portfolio-container flex">
         <div className="portfolio-wrapper flex">
           <div className="portfolio-img" ref={ref}>
-            <img src={item.img} alt="" />
+            <img
+              src={require(`../../img${item.img}`)}
+              alt={item.title}
+              loading="lazy"
+            />
           </div>
           <motion.div className="portfolio-text" style={{ y }}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
-            <a href={item.link}>See DEMO</a>
-            <a href={item.gitHubLink}>GitHub</a>
+            <p>{item.tech}</p>
+            <p>{item.task}</p>
+            <a href={item.link}>link to</a>
+            {/* <a href={item.gitHubLink}>GitHub</a> */}
           </motion.div>
         </div>
       </div>
@@ -100,7 +59,8 @@ const Portfolio = () => {
           className="portfolio-progress__bar"
         ></motion.div>
       </div>
-      {items.map((item) => (
+
+      {projects.map((item) => (
         <Single item={item} key={item.id} />
       ))}
     </div>

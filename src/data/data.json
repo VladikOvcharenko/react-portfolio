@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "Justify Partners",
+    "img": "/temp/justify.webp",
+    "desc": "A corporate website for a legal firm, focused on modern visuals and motion effects. Includes interactive sliders (Swiper), CSS- and JS-based animations, form validation, and fully responsive adaptive design.",
+    "link": "https://justify.partners/",
+    "gitHubLink": "",
+    "tech": "HTML, CSS, JavaScript, Swiper",
+    "task": "layout, responsive design, animations (JS + CSS), logic, form validation."
+  },
+  {
+    "id": 2,
+    "title": "CPA Network",
+    "img": "/temp/7leads-biz.webp",
+    "desc": "A responsive multi-page website for a CPA network with interactive animations and bilingual support (Ukrainian and English). Implemented smooth transitions between sections, dynamic content sliders built with Swiper, and custom logic for language switching.",
+    "link": "https://7leads.biz/",
+    "gitHubLink": "",
+    "tech": "HTML, CSS, JavaScript, Swiper",
+    "task": "layout, responsive design, animations, logic implementation, multilingual setup."
+  },
+  {
+    "id": 3,
+    "title": "Agency Accounts",
+    "img": "/temp/agency-nervous-pro.webp",
+    "desc": "A modern landing page for a company offering agency accounts with competitive conditions. The site features adaptive layouts, dynamic animations, and custom form validation for seamless user experience across all devices.",
+    "link": "https://agency.nervous.pro/",
+    "gitHubLink": "",
+    "tech": "HTML, CSS, JavaScript, Swiper",
+    "task": "layout, responsive design, animations, logic, form validation"
+  },
+  {
+    "id": 4,
+    "title": "Billions Private Equity Fund",
+    "img": "/temp/billions.webp",
+    "desc": "A responsive website for a private equity fund offering transparent management and stable returns. Developed with smooth animations, custom form validation, and logical content transitions to ensure a professional presentation.",
+    "link": "https://billions.com.ua/",
+    "gitHubLink": "",
+    "tech": "HTML, CSS, JavaScript",
+    "task": "layout, responsive design, animations, logic, form validation."
+  },
+  {
+    "id": 5,
+    "title": "La Prima Clinica Dentale",
+    "img": "/temp/dent-alb.webp",
+    "desc": "A bilingual (English & Italian) landing page for a dental clinic serving Italian tourists in Albania. Features smooth animations, Google Maps integration, and custom form validation with error messages for better user experience.",
+    "link": "https://dent-alb.it/",
+    "gitHubLink": "",
+    "tech": "HTML, CSS, JavaScript",
+    "task": "layout, responsive design, animations, logic, form validation, map integration, multilingual setup."
+  },
+  {
+    "id": 6,
+    "title": "The Arbitration Team",
+    "img": "/temp/marketing-nervous-pro.webp",
+    "desc": "A bilingual website for an arbitration team, featuring elegant scroll animations (AOS) and a clean adaptive layout. Developed with custom interactive logic and smooth content appearance on scroll.",
+    "link": "https://marketing.nervous.pro/",
+    "gitHubLink": "",
+    "tech": "HTML, CSS, JavaScript, AOS",
+    "task": "layout, responsive design, animations, logic, multilingual setup."
+  },
+  {
+    "id": 7,
+    "title": "Strumko",
+    "img": "/temp/strumko.webp",
+    "desc": "A landing page for a Ukrainian manufacturer of portable power systems for military and civil use. Built with smooth scroll-based animations (AOS), interactive Swiper sliders, and custom form validation. Fully responsive and optimized for user interaction.",
+    "link": "https://strumko.com/",
+    "gitHubLink": "",
+    "tech": "HTML, CSS, JavaScript, Swiper, AOS",
+    "task": "layout, responsive design, animations, logic, form validation."
+  }
+]

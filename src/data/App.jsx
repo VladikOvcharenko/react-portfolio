@@ -5,7 +5,7 @@ import Navbar from './components/Navbar/Navbar';
 import Parallax from './components/Parallax/Parallax';
 import Portfolio from './components/Portfolio/Portfolio';
 import Services from './components/Services/services';
-import Contact from './components/Contact/Contact';
+import Contact from '../img/temp/agency-nervous-pro.webp';
 
 const App = () => {
   return (
